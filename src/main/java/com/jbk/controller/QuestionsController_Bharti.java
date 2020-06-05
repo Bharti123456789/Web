@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("testapi")
 public class QuestionsController_Bharti {
+	//this question controller class
 	
 	public Question getQuestions() {
 		Question question = new Question();  

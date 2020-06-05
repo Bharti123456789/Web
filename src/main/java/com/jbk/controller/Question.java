@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Question {
+	//this is question class
 	String questionText;
 	String option1;
 	String option2;
