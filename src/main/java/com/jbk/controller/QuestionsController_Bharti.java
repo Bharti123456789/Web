@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class QuestionsController_Bharti {
 	//this question controller class
 	
+	@RequestMapping("getquestion")
 	public Question getQuestions() {
 		Question question = new Question();  
 		question.setQuestionText("java is platform independent?");
